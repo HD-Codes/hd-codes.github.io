@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="static\css\styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <!-- MOBILE NAVIGATION -->
+        <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+            <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="toggleNavigation()">&#9776;</a>
+        </div>
+        <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+            <a href="#about"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">ABOUT</a>
+            <a href="#resume"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">RESUME</a>
+            <a href="#contact"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">CONTACT</a>
+        </div>
+
+        <!-- SOCIAL SECTION -->
+        <section class="image-section w3-quarter w3-fixed w3-padding-small">
+            <!--IMAGE/AVATAR-->
+            <img src="static\images\profile_pic.jpeg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;" />
+            <!--SCIAL NETWORK BUTTONS-->
+            <div class="links w3-margin-top w3-padding-small">
+                <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://github.com/HD-Codes"
+                    target="_blank">
+                    <i data-feather="github"></i>
+                </a>
+                <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://twitter.com/HDHackz"
+                    target="_blank">
+                    <i data-feather="twitter"></i>
+                </a>
+                <a class="icon-link w3-text-sand w3-hover-text-amber"
+                    href="https://www.linkedin.com/in/hrishikesh-dahale/" target="_blank">
+                    <i data-feather="linkedin"></i>
+                </a>
+            </div>
+            <!--CV DOWNLOAD BUTTON-->
+            <div class="w3-container w3-padding-16">
+                <a href="static\Docs\CS_Hrishikesh_Dahale_Resume.pdf"
+                    class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large"
+                    target="_blank" download="resume.pdf">
+                    <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+                    <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+                </a>
+            </div>
+        </section>
+
+        <!--CV CONTENT SECTION-->
+        <section class="w3-threequarter w3-padding-large w3-right">
+            <!--DESKTOP NAVIGATION-->
+            <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+                <a href="#home"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM
+                    VITAE</a>
+                <a href="#contact"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+                <a href="#resume"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+                <a href="#about"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+            </div>
+            <div class="content-container w3-margin-top-2">
+                <!--HOME SECTION-->
+                <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+                    <p style="font-style: italic; font-size:x-large;">"The only way to do great work is to love what you
+                        do." - Steve Jobs</p>
+                    <h1>Hrishikesh Dahale (27)</h2>
+                        <h2>Software Developer/Hacker</h3>
+                            <p></p>
+                </div>
+
+                <!--ABOUT SECTION-->
+                <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+                    <p class="w3-margin-top-2">
+                        Hello and welcome to my virtual corner of the internet! I am a Master's student at Arizona State
+                        University (ASU), where I am diving deep into the exciting world of computer science with a
+                        focus on cybersecurity. I've already had some amazing opportunities to apply my knowledge,
+                        including a summer internship at Amazon where I honed my skills as a software developer and got
+                        to work with a variety of AWS services. Before that, I spent a year at Cognizant as a project
+                        associate, where I not only learned to design UI using dotnet but also created apps for both
+                        Android and iOS. My undergraduate journey began at College of Engineering Pune (COEP), where I
+                        studied Electronics and Telecommunication. When I'm not studying or working, you can usually
+                        find me curled up with a mystery novel or self-help book. I'm also a fitness enthusiast and
+                        enjoy going to the gym, as well as trying out new things like learning new programming languages
+                        or practicing my foreign language skills. And let's not forget my love for cooking! I hope you
+                        enjoy reading about my adventures and journey here on my website.
+                    </p>
+                </div>
+
+                <!--RESUME-->
+                <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+
+                        <!--EMPLOYMENT HISTORY SECTION-->
+                        <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+                        <div class="">
+                            <h4>Amazon.com Inc - Software Developer Engineer Intern</h4>
+                            <p>May 2022 - August 2022</p>
+                            <ul class="w3-ul" style="font-weight: 500;">
+                                <li>Developed an API that enables the sysops-sap service to automate the configuration
+                                    process of the AWS-Backint backup service with the AWS backup vault, reducing manual
+                                    effort and errors.</li>
+                                <li>Built serverless functions using Kotlin, which improved the scalability, performance
+                                    and cost effectiveness of the solution.</li>
+                                <li>Took ownership of the entire API development life-cycle, from collecting and
+                                    analyzing requirements, to devising various strategies, enhancing user experience,
+                                    performing unit testing and integrating with other systems seamlessly.</li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <h4>Arizona State University - (Volunteer) Research Assistance</h4>
+                            <p>February 2022 - February 2022 </p>
+                            <ul class="w3-ul" style="font-weight: 500;">
+                                <li>Demonstrated knowledge and understanding of 5G MANO (Management and Network
+                                    Orchestration) by researching 3GPP TS 28.531, TS 28.532 Release 15 (R15) to achieve
+                                    the management and scheduling of 5G network slices.</li>
+                                <li>Conducted thorough analysis of the 5G MANO test pad, identified potential flaws or
+                                    backdoors, and composed test cases and scripts to confirm vulnerabilities (if any)
+                                    in the system.</li>
+                                <li>Contributed to the research team by identifying security vulnerabilities and
+                                    potential weaknesses in the 5G network orchestration system and proposed solutions
+                                    to improve the security and reliability of the network.</li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <h4>Cognizant - Project-Associate</h4>
+                            <p>November 2018 - October 2019 </p>
+                            <ul class="w3-ul" style="font-weight: 500;">
+                                <li>Successfully developed and implemented an automated end-to-end report generating
+                                    solution using Visual Basic and PowerShell script, resulting in a significant
+                                    reduction of human labor required for daily report generation</li>
+                                <li>Demonstrated expertise in web design by implementing multiple proof-of-concept Web
+                                    UI designs using DotNet and improving the overall user experience.</li>
+                                <li>Developed an iOS app for a toy shop that utilizes scanning technology to check for a
+                                    specific toy in a client database, and offers similar products as a result. Utilized
+                                    a pre-designed ML module to complete the project effectively and delivered a
+                                    high-quality solution on time and within budget</li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <h4>Azure Skynet Solution Pvt. Ltd - Ethical Hacking and Cybersecurity (Internship)</h4>
+                            <p>June 2017 - August 2017</p>
+                            <ul class="w3-ul" style="font-weight: 500;">
+                                <li>Demonstrated knowledge of various tools used for system information collection,
+                                    penetration testing, and identifying server/system vulnerabilities by researching
+                                    and discovering the many tools available in the market.</li>
+                                <li>Conducted thorough analysis of the tools, their features, and functionalities to
+                                    understand their potential use cases and effectiveness in the field of system
+                                    security.</li>
+                                <li>Developed understanding of the tools that are widely used in the industry, and how
+                                    they can be utilized to identify vulnerabilities, and perform penetration testing,
+                                    with the ultimate goal of improving the security of the systems.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!---EDUCATION SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY EDUCATION</h3>
+                        <h4>MS in Computer Science (Cybersecurity), Arizona State University (ASU), Tempe</h4>
+                        <p>August 2021 - Present </p>
+                        <h4>B.Tech in Electronics and Telecommunication, College of Engineering Pune (COEP), Pune</h4>
+                        <p>August 2014 - June 2018</p>
+                    </div>
+
+                    <!--SKILLS SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY SKILLS</h3>
+                        <!--SOFT SKILLS-->
+                        <h4>Soft skills</h4>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>I have excellent communication skill and confidence in front of an audience</li>
+                            <li>I have a talent for investigating and researching different processes to offer different
+                                improvements and solution for the benefit of the organization </li>
+                            <li>I possess the capability to create and execute efficient plans and make well-informed
+                                choices in demanding and intricate circumstances.</li>
+                            <li>I have the capability to seamlessly collaborate with a team and establish sturdy
+                                connections with coworkers, stakeholders, and allies to attain shared objectives.</li>
+                        </ul>
+                        <!--TECHNICAL SKILLS-->
+                        <h4>Technical skills</h4>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>I have extensive experience in programming languages such as Python and Go.</li>
+                            <li>Additionally, I have hands-on experience with other programming languages including
+                                Kotlin, C, Bash, Shell Scripting, Swift, and Android development.</li>
+                            <li>I am constantly expanding my skillset by learning about cybersecurity tools such as IDA,
+                                Metasploit, NMAP, Wireshark, and other related tools in the field of ethical hacking.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--INTERESTS SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>I love mountain hiking and cycling in my free time</li>
+                            <li>I like to read mystery novels</li>
+                            <li>I also love to cook</li>
+                        </ul>
+                    </div>
+
+                    <!-- REFERENCE SECTION
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY REFERENCES</h3>
+              <h4>Jane Doe, CEO at Company-Z</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>+0123456789</li>
+                <li>janedoe@companyz.com</li>
+              </ul>
+              <h4>Margaret Johnson, Manager at Company-Y</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>+9876543210</li>
+                <li>mjohnson@companyy.com</li>
+              </ul>
+            </div>            
+          </div> -->
+
+                    <!--CONTACT SECTION-->
+                    <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+                        <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT
+                            DETAILS</h3>
+                            <div class="w3-margin-top-2" style="font-weight: 500;">
+                                <p>Name: Hrishikesh Dahale</p>
+                                <p>Adress: 1050 S Stanley Pl, Tempe, Arizona</p>
+                                <p>Phone number: +1 (602)621-9670</p>
+                                <p>E-mail: dahalehrishi@gmail.com</p>
+                            </div>
+                    </div>
+
+                    <!--FOOTER-->
+                    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+                    <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+                        <p>© 2023 - Hrishikesh Dahale</p>
+                        <!-- <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a>  -->
+                        <!-- End footer -->
+                    </footer>
+
+                    <!--END OF CV SECTION-->
+        </section>
+    </section>
+    <script>
+        // Function to toggle mobile navigation
+        function toggleNavigation() {
+            let nav = document.getElementById("mobile-nav");
+            if (nav.classList.contains('w3-show')) {
+                nav.classList.remove('w3-show');
+            } else {
+                nav.classList.add('w3-show');
+            }
+        }
+    </script>
+    <script>
+        // Script to load feather icons
+        feather.replace()
+    </script>
+</body>
+
+</html>
